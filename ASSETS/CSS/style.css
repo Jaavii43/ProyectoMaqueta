@@ -1,3 +1,9 @@
 .navbar.navbar-expand-lg.bg-dark{
     background-color: blueviolet !important;
 }
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: blue;
+    }
+li.list-group-item{
+    background-color: blueviolet;
+}
