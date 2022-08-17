@@ -1,3 +1,10 @@
+body{
+    background-image: url(../IMG/Imagenbanner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
 .navbar.navbar-expand-lg.bg-dark{
     background-color: rgb(27, 196, 91)  !important;
 }
