@@ -1,12 +1,10 @@
 body{
     background-image: url(../IMG/background-2426328.jpg);
     background-size: 100%;
-    min-height: 100vh;
-    
+    min-height: 100vh;    
 }
-
 .navbar.navbar-expand-lg.bg-dark{
-    background-color: rgb(27, 196, 91)  !important;
+    background-color: rgb(78, 90, 82)  !important;
 }
 i.fa-brands.fa-linkedin.fa-2xl:hover{
     color: blue;
@@ -21,6 +19,6 @@ i.fa-brands.fa-instagram.fa-2xl:hover{
     color: #C13584;
 }
 section.sobre-mi{
-    margin-top: 10rem;
+    margin-top: 15rem;
     
 }
