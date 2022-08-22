@@ -1,7 +1,6 @@
 
 .navbar.navbar-expand-lg.bg-dark{
     background-color: rgb(78, 90, 82)  !important;
-    padding-y: 0;
 }
 .navbar{
     --bs-navbar-padding-y:0 !important;
@@ -27,7 +26,10 @@ section.sobre-mi{
 section.dashboard{
     margin-top: 7.5rem;
 }
-
 div.row>*{
 padding-left: 0em;
 }
+div.tab-content{
+    width: 100%;
+}
+
