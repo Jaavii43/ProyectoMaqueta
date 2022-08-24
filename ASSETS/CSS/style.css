@@ -23,22 +23,18 @@ li.list-group-item{
 
 /* Estilos de las secciones */
 section.sobre-mi{
-    margin-top: 6rem;
     background-image: url(../IMG/background-2426328.jpg);
     background-size: 100%;
     min-height: 60vh;
     color: rgb(45, 231, 39);
 }
-section.dashboard{
-    margin-top: 7.5rem;
-}
+
 div.row>*{
 padding-left: 1em;
 }
 div.tab-content{
     width: 100%;
 }
-
 div.linea.mt-lg-4 {
     margin-top: 4rem!important;
 }
@@ -49,4 +45,53 @@ div.linea.mt-lg-4 {
 #capa2{
     position: absolute;
     z-index: 0;
+}
+/* Dashboard */
+section.dashboard{
+    margin-top: 7.5rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+section.banner{
+    background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
+    font-family: "Open Sans",  Impact;
+    margin-top: 6rem;
+    background-image: url(../IMG/fondobanner.jpg);
+    background-size: 100%;
+    min-height: 40vh;
+    color: rgb(45, 231, 39);
+}
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color:#fff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
 }
