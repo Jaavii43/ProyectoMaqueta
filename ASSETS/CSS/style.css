@@ -6,6 +6,8 @@
     --bs-navbar-padding-y:0 !important;
     height: 6rem;
 }
+
+
 /* Botones redes sociales*/
 i.fa-brands.fa-linkedin.fa-2xl:hover{
     color: blue;
@@ -17,16 +19,19 @@ i.fa-brands.fa-instagram.fa-2xl:hover{
     color: #C13584;
 }
 li.list-group-item{
-    background-color: rgb(43, 226, 141);
+    background-color: rgb(35, 190, 118);
 }
 /* Fin Botones redes sociales*/
 
 /* Estilos de las secciones */
+section.practicas, section.educacion, section.habilidades{
+    background-color: rgb(78, 90, 82)
+}
 section.sobre-mi{
     background-image: url(../IMG/background-2426328.jpg);
     background-size: 100%;
     min-height: 60vh;
-    color: rgb(45, 231, 39);
+    color: rgb(231, 39, 39);
 }
 
 div.row>*{
@@ -38,14 +43,6 @@ div.tab-content{
 div.linea.mt-lg-4 {
     margin-top: 4rem!important;
 }
-#capa1{
-    position: absolute;
-    z-index: 1;
-}
-#capa2{
-    position: absolute;
-    z-index: 0;
-}
 /* Dashboard */
 section.dashboard{
     margin-top: 7.5rem;
@@ -53,7 +50,8 @@ section.dashboard{
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-section.banner{
+/* Banner */
+.banner{
     background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
     font-family: "Open Sans",  Impact;
     margin-top: 6rem;
@@ -83,9 +81,6 @@ section.banner{
       0px 0px 25px #fff,
       0px 0px 25px #fff,
       0px 0px 25px #fff,
-      0px 0px 25px #fff,
-      0px 0px 50px #fff,
-      0px 0px 50px #fff,
       0px 0px 50px #7B96B8,
       0px 0px 150px #7B96B8,
       0px 10px 100px #7B96B8,
@@ -95,3 +90,4 @@ section.banner{
       0px -10px 100px #7B96B8,
       0px -10px 100px #7B96B8;}
 }
+/* Fin Banner */
