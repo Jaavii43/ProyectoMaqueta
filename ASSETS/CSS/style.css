@@ -30,7 +30,7 @@ section.practicas, section.educacion, section.habilidades{
 section.sobre-mi{
     background-image: url(../IMG/background-2426328.jpg);
     background-size: 100%;
-    min-height: 60vh;
+    min-height: 40vh;
     color: rgb(231, 39, 39);
 }
 
@@ -55,14 +55,14 @@ section.dashboard{
     background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
     font-family: "Open Sans",  Impact;
     margin-top: 6rem;
-    background-image: url(../IMG/fondobanner.jpg);
+    background-image: url(../IMG/background-2426328.jpg);
     background-size: 100%;
-    min-height: 40vh;
+    min-height: 25vh;
     color: rgb(45, 231, 39);
 }
 .area{
   text-align:center;
-  font-size:6.5em;
+  font-size:4.5em;
   color:#fff;
   letter-spacing: -7px;
   font-weight:700;
@@ -74,7 +74,7 @@ section.dashboard{
 
 @keyframes blur{
   from{
-      text-shadow:0px 0px 10px #fff,
+      text-shadow:0px 0px 1px #fff,
       0px 0px 10px #fff, 
       0px 0px 25px #fff,
       0px 0px 25px #fff,
