@@ -4,27 +4,28 @@
 }
 .navbar{
     --bs-navbar-padding-y:0 !important;
-    height: 6rem;
+    height: 3.5rem;
 }
 
 
 /* Botones redes sociales*/
-i.fa-brands.fa-linkedin.fa-2xl:hover{
+i.fa-brands.fa-linkedin:hover{
     color: blue;
     }
-i.fa-brands.fa-facebook.fa-2xl:hover{
+i.fa-brands.fa-facebook:hover{
     color: blue;
 }
-i.fa-brands.fa-instagram.fa-2xl:hover{
+i.fa-brands.fa-instagram:hover{
     color: #C13584;
 }
 li.list-group-item{
     background-color: rgb(35, 190, 118);
+    height: 2rem ;
 }
 /* Fin Botones redes sociales*/
 
 /* Estilos de las secciones */
-section.practicas, section.educacion, section.habilidades{
+section.practicas, section.educacion, section.footer, section.proyecto, section.habilidades{
     background-color: rgb(78, 90, 82)
 }
 section.sobre-mi{
@@ -51,20 +52,12 @@ section.dashboard{
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 /* Banner */
-.banner{
-    background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
-    font-family: "Open Sans",  Impact;
-    margin-top: 6rem;
-    background-image: url(../IMG/background-2426328.jpg);
-    background-size: 100%;
-    min-height: 25vh;
-    color: rgb(45, 231, 39);
-}
+
 .area{
   text-align:center;
-  font-size:4.5em;
+  font-size:3em;
   color:#fff;
-  letter-spacing: -7px;
+  letter-spacing: 0px;
   font-weight:700;
   text-transform:uppercase;
   animation:blur .75s ease-out infinite;
@@ -74,7 +67,7 @@ section.dashboard{
 
 @keyframes blur{
   from{
-      text-shadow:0px 0px 1px #fff,
+      text-shadow:0px 0px 0px #fff,
       0px 0px 10px #fff, 
       0px 0px 25px #fff,
       0px 0px 25px #fff,
