@@ -47,6 +47,11 @@ div.linea.mt-lg-4 {
 section.dashboard{
     margin-top: 7.5rem;
 }
+/* seccion experiencia */
+div.prueba{
+    background-color: rgba(149, 155, 152, 0.89);
+    margin-left: -1rem; 
+}
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
